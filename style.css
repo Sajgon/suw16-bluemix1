@@ -1,0 +1,103 @@
+/* CSS DOKUMENT FÖR INDEx.HTML */
+body{
+	background-color: ORANGE;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 40px;
+    	text-align: left;
+	font-family: 'Courier New';
+	font-size: 14px;
+    padding: 5px;
+}
+
+#content{
+	width: 40%;
+	margin: auto;
+    border: 2px solid black;
+    padding: 0;
+    box-shadow: 4px 2px 3px black;
+    margin-bottom: 65px;
+    background-color: white;
+}
+
+header{
+    position: fixed;
+    width: 40%;
+    height: 40px;
+    top: -1px;
+    background-color: black;
+    border-top: 2px solid black;
+        border-bottom: 2px solid black;
+
+}
+/* menu */
+header > ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header > ul > li{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    float: left;
+
+}
+li li {
+    display: block;
+}
+ul ul{
+    position: absolute;
+    padding: 0;
+    display: none;
+    background-color: black;
+}
+ul li:hover{
+    background-color: orange;
+}
+li:hover > ul {
+    display: block;
+}
+li:hover > a{
+    color: black;
+}
+ul li a{
+        padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header > ul > li > a{
+    padding-top: 10px;
+}
+
+
+
+footer{
+	width: 100%;
+	background-color: black;
+	color: white;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	border-top: 2px dashed white;
+	height: 50px;
+}
+
+footer > p{
+	text-align: center;
+	color: orange;
+}
+
+.selected{
+    background-color: orange;
+}
+
