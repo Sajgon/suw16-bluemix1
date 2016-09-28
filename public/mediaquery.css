@@ -1,9 +1,22 @@
-@media (max-width: 629px) {
-  .header{
-    background-color: orange;
-  }
+@media (max-width: 629px){
+    header{
+        background-color: orange;
+        height: 150px;
+    }
     
-    .logo{
+    header .logo{
         margin: 10px auto;
+        float: none;
+        height: 80px;
+    }
+    
+    header nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    header nav{
+        margin: 0 auto;
+        float: none;
+        width: 350px;
     }
 }
