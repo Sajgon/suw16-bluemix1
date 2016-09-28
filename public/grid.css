@@ -19,15 +19,15 @@
 }
 
 /* grid item sizes */
-.one-third {
+.lg-one-third {
   width: 31.33%;
 }
 
-.one-half {
+.lg-one-half {
   width: 48%;
 }
 
-.two-thirds {
+.lg-two-thirds {
   width: 64.66%;
 }
 

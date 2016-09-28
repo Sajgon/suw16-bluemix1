@@ -1,4 +1,4 @@
-@media (max-width: 629px){
+@media (max-width: 636px){
     header{
         background-color: orange;
         height: 150px;
@@ -18,5 +18,14 @@
         margin: 0 auto;
         float: none;
         width: 350px;
+    }
+    
+    main{
+        padding-top: 152px;
+    }
+    
+    sm-full-width{
+        width: 98%;
+      
     }
 }
