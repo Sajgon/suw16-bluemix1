@@ -1,0 +1,12 @@
+@media (max-width: 629px){
+    header{
+        background-color: orange;
+    }
+    
+    header .logo{
+        margin: 10px auto;
+        float: none;
+        
+        height: 80px;
+    }
+}
